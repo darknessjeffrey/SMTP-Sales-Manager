@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/smtp-manager run build:vercel",
+  "outputDirectory": "artifacts/smtp-manager/dist",
+  "installCommand": "pnpm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
